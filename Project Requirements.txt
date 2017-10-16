@@ -1,0 +1,2 @@
+﻿Definition of functionality:
+Create a contained set of code for web application that allows the user to upload or navigate of files for homework, honors project, lectures, slides, etc, and the corresponding due dates, then use client side code to copy the files into a corresponding directory. The end result should contain all the files, and trees within a single root directory, along with a ics file with the correct due dates, and event codes to integrate into google.
