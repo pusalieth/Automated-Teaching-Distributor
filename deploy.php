@@ -8,7 +8,8 @@
 */
 // The commands
 $commands = array(
-'git pull',
+'git reset --hard HEAD',
+'git pull origin master',
 'git status',
 'git submodule sync',
 'git submodule update',
