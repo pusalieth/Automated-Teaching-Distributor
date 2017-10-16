@@ -10,12 +10,11 @@
 $commands = array(
 'echo $PWD',
 'whoami',
-'git pull',
+'git pull origin master',
 'git status',
 'git submodule sync',
 'git submodule update',
 'git submodule status',
-'git pull origin master',
 );
 // Run the commands for output
 $output = '';
@@ -24,7 +23,7 @@ foreach($commands AS $command){
     $tmp = shell_exec($command);
     // Output
     $output .= "<span style=\"color: #6BE234;\">\$</span> <span style=\"color: #729FCF;\">{$command}\n</span>";
-	$output .= htmlentities(trim($tmp)) . "\n";
+    $output .= htmlentities(trim($tmp)) . "\n";
 }
 // Make it pretty for manual user access (and why not?)
 ?>
