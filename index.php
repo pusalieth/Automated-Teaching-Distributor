@@ -15,7 +15,7 @@
 <script>
   function createDir() { 
     <button type="button">Click Me!</button>
-    <?php mkdir("testing"); ?>
+    <?php mkdir(test); ?>
     alert('Dir created');
   }
 
