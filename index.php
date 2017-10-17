@@ -13,8 +13,7 @@
 </script>
 
 <script>
-  function createDir() { 
-    <button type="button">Click Me!</button>
+  function createDir() { < button type = "button" > Click Me! < /button>
     <?php mkdir(test); ?>
     alert('Dir created');
   }
@@ -23,20 +22,7 @@
     alert(htmlString);
     alert('create File');
   }
-
-  function addHeader() {
-    var myHeading = document.querySelector('h1');
-    myHeading.textContent = 'Hello world! Script Succesful';
-  }
 </script>
-
-<head>
-  <title>Sample "Hello, World" Application</title>
-</head>
-
-
-<button onclick="createDir()"> Create Directory </button>
-<button onclick="createFile()"> Create File </button>
 
 
 <body bgcolor=white>
@@ -52,15 +38,16 @@
     </tr>
   </table>
 
-  <p>This is the home page for the HelloWorld Web application. </p>
-  <p>To prove that they work, you can execute either of the following links:
-    <ul>
-      <li>To a
-        <a href="hello.jsp">JSP page</a>.
-        <li>To a
-          <a href="hello">servlet</a>.
-    </ul>
-  </p>
+  <form>
+    First name:
+    <br>
+    <input type="text" name="firstname">
+    <br> Last name:
+    <br>
+    <input type="text" name="lastname">
+  </form>
+  <button onclick="createDir()"> Create Directory </button>
+  <button onclick="createFile()"> Create File </button>
 </body>
 
 </html>
