@@ -1,7 +1,6 @@
 function createDir() {
-    var myObject, newfolder;
-    myObject = new ActiveXObject("Scripting.FileSystemObject");
-    newfolder = myObject.CreateFolder("/home/jake/GitHub/Automated-Teaching-Distributor");
+    var htmlString = "<?php mkdir(\"testing\"); ?>";
+    alert(htmlString);
     alert('Dir created');
 }
 
