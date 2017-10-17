@@ -13,9 +13,9 @@
 </script>
 
 <script>
-  function createDir() {
-    var htmlString = "<?php mkdir(\"testing\"); ?>";
-    alert(htmlString);
+  function createDir() { 
+    <button type="button">Click Me!</button>
+    <?php mkdir("testing"); ?>
     alert('Dir created');
   }
 
