@@ -57,14 +57,13 @@
         <img src="images/springsource.png">
       </td>
       <td>
-        <h1>Sample "Hello, World" Application</h1>
+        <h1>Automated Teaching Distributor</h1>
       </td>
     </tr>
   </table>
 
   <form>
-    HomeworkFolder:
-    <br>
+    <br> HomeworkFolder:
     <input type="file" id="files" name="files[]" multiple />
     <output id="list"></output>
     <script>
