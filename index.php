@@ -13,9 +13,10 @@
 </script>
 
 
-// Javascript using JSZip to create directories
-echo "
+
+
 <script src="https://stuk.github.io/jszip/dist/jszip.min.js" type = 'text/javascript'>
+// Javascript using JSZip to create directories
   if (window.File && window.FileReader && window.FileList){
     // APIs supported in the browser
   } else {
@@ -66,7 +67,7 @@ echo "
     <br>
     <input type="file" id="files" name="files[]" multiple />
     <output id="list"></output>
-    echo "<script>
+    <script>
         function handleFileSelect(evt) {
           var files = evt.target.files; // FileList object
 
@@ -82,7 +83,7 @@ echo "
         }
 
         document.getElementById('files').addEventListener('change', handleFileSelect, false);
-      </script>"
+      </script>
     <br> Last name:
     <br>
     <input type="text" name="lastname">
